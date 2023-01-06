@@ -1036,7 +1036,7 @@ public static void main(String[] args)
 		for(int j=0;j<9;j++)
 		{
 			if(j-i<=0)
-			{   if(j*2==i)
+			{   if(j*2<i)
 				System.out.print(cnt++);
 				else
 				System.out.print(cnt--);
