@@ -65,6 +65,30 @@ public static void main(String [] args){
 	}
 }
 
+
+eq method ------>>>>
+public class character_pattern_25{
+public static void main(String [] args){
+	
+	for(int i=0;i<5;i++){
+		
+		for(int j=0;j<5;j++){
+			if(j-i<=0)
+			{
+				System.out.print((char)(j+65));
+				cnt++;
+			}
+			else
+				System.out.print(" ");
+				
+		}
+		System.out.println();
+		}
+		
+	
+	}
+}
+
 --------------------------------------------------------------------------------------------------------
 
 
