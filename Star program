@@ -3007,6 +3007,28 @@ public static void main(String [] args)
 }
 }
 
+//Dyanamic Star Pattern by getting inputs from the user-------------------------------------------- 
+import java.util.Scanner;
+public class VarCharBy1
+{
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter Your Number");
+		int num=s.nextInt();
+		for(int i=0;i<num;i++)
+		{ 
+			for(int j=0;j<num;j++)
+			{
+				if(j-i<=0)
+				System.out.print("*");
+				else
+				System.out.print(" ");
+			}
+			System.out.println();
+		}
+	}
+}
 
 
 
